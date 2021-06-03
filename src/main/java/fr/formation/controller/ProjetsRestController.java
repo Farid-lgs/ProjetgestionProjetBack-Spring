@@ -21,7 +21,7 @@ import fr.formation.service.ProjetService;
 
 @RestController
 @CrossOrigin(origins = "http://localhost:4200")
-@RequestMapping("/projet")
+@RequestMapping("/api/projet")
 public class ProjetsRestController {
 	
 	@Autowired

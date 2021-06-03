@@ -20,7 +20,7 @@ import fr.formation.service.TacheService;
 
 @RestController
 @CrossOrigin(origins = "http://localhost:4200")
-@RequestMapping("/tache")
+@RequestMapping("/api/tache")
 public class TacheRestController {
 	
 	@Autowired

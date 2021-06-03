@@ -18,7 +18,7 @@ import fr.formation.service.DepartementService;
 
 @RestController
 @CrossOrigin(origins = "http://localhost:4200")
-@RequestMapping("/departement")
+@RequestMapping("/api/departement")
 public class DepartementsRestController {
 
 	@Autowired

@@ -22,7 +22,7 @@ import fr.formation.service.RoleService;
 
 @RestController
 @CrossOrigin(origins = "http://localhost:4200")
-@RequestMapping("/employe")
+@RequestMapping("/api/employe")
 public class EmployeRestController {
 
 	@Autowired
